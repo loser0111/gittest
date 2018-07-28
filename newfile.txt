@@ -1,3 +1,5 @@
 this is a new file that i will push to github!
 这是修改过的文本部分
 2018-07-28早上九点十六分放加入新内容
+使用git  checkout --filename  可以进行撤销对工作区文件的修改。
+当时用了 git add 把修改文件加入到暂存区之后，就无法使用 git checkout -- filename 进行恢复，使用 git reset head -- filename 把文件从暂存区删除，然后在工作区恢复
